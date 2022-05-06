@@ -1,9 +1,9 @@
-from selenium import webdriver
+from selenium import webdriver          #Use pip install selenium in terminal
 import time
-import pyautogui
+import pyautogui            #Use pip install pyautogui in terminal
 from Username_ListMaker import OfficialList
 
-browser = webdriver.Chrome('/Users/timmychin/Downloads/chromedriver')
+browser = webdriver.Chrome('/Users/timmychin/Downloads/chromedriver')           #Go to selenium website and download chromedriver and put its location here
 
 browser.get('https://www.instagram.com/')
 
